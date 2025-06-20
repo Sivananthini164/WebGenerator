@@ -14,15 +14,15 @@ function HeroSection() {
           backgroundPosition: 'center',
         }}
         className='  min-h-screen w-full bg-zinc-300 flex flex-col items-center justify-center px-4'>
-        <div className='p-4 sm:p-6 md:p-10 w-full sm:w-4/5 m-2 text-2xl sm:text-3xl lg:text-5xl font-bold text-center text-red-800'>
+        <div className='p-4 sm:p-6 md:p-10 w-full sm:w-4/5 m-2 text-2xl sm:text-3xl lg:text-5xl font-bold text-center text-white'>
           Create Beautiful Websites in Minutes - No Code, Just AI 
         </div>
-        <div className='p-4 sm:p-6 md:p-8 w-full sm:w-4/5 m-2 text-lg sm:text-xl lg:text-3xl font-semibold text-center text-red-800'>
+        <div className='p-4 sm:p-6 md:p-8 w-full sm:w-4/5 m-2 text-lg sm:text-xl lg:text-3xl font-semibold text-center text-white'>
           Build modern, responsive websites in minutes with intelligent automation. No coding skills required
         </div>
         <button
           onClick={() => setShowModal(true)}
-          className='p-3 sm:p-4 bg-blue-950 text-red-600 rounded-[18px] m-4 text-lg sm:text-xl lg:text-2xl font-semibold'>
+          className='p-3 sm:p-4 bg-[#1938ad] text-white rounded-[18px] m-4 text-lg sm:text-xl lg:text-2xl font-semibold'>
           Build smart websites with AI
         </button>
       </div>
